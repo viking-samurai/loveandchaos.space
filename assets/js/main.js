@@ -1,3 +1,88 @@
+const navTopButton = document.querySelector(".nav-top")
+const pathButton = document.querySelector(".path-button");
+const navPathButton = document.querySelector(".nav-path");
+const loveButton = document.querySelector(".love-button");
+const navLoveButton = document.querySelector(".nav-love");
+const mushroomButton = document.querySelector(".mushroom-button");
+const navMushroomButton = document.querySelector(".nav-mushroom");
+const acidButton = document.querySelector(".acid-button");
+const navAcidButton = document.querySelector(".nav-acid");
+
+// When the user clicks on the button, scroll to the top of the document
+
+navTopButton.onclick = () => {
+	window.scroll({
+		top: 0,
+		behavior: "smooth",
+	});
+};
+
+pathButton.onclick = () => {
+	const element = document.getElementById("path");
+	element.scrollIntoView({behavior: 'smooth'});
+};
+
+navPathButton.onclick = () => {
+	const element = document.getElementById("path");
+	element.scrollIntoView({behavior: 'smooth'});
+};
+
+loveButton.onclick = () => {
+	const element = document.getElementById("love");
+	element.scrollIntoView({behavior: 'smooth'});
+};
+
+navLoveButton.onclick = () => {
+	const element = document.getElementById("love");
+	element.scrollIntoView({behavior: 'smooth'});
+};
+
+mushroomButton.onclick = () => {
+	const element = document.getElementById("mushrooms");
+	element.scrollIntoView({behavior: 'smooth'});
+};
+
+navMushroomButton.onclick = () => {
+	const element = document.getElementById("mushrooms");
+	element.scrollIntoView({behavior: 'smooth'});
+};
+
+acidButton.onclick = () => {
+	const element = document.getElementById("acid");
+	element.scrollIntoView({behavior: 'smooth'});
+};
+
+navAcidButton.onclick = () => {
+	const element = document.getElementById("acid");
+	element.scrollIntoView({behavior: 'smooth'});
+};
+
+
+// Get the button
+const topButton = document.getElementById("top-button");
+				
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = () => {
+	scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+	topButton.style.display = "flex";
+  } else {
+	topButton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+topButton.onclick = () => {
+	window.scroll({
+		top: 0,
+		behavior: "smooth",
+	});
+};
+
+
 /*
 	Future Imperfect by HTML5 UP
 	html5up.net | @ajlkn

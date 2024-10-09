@@ -18,13 +18,13 @@
 
 				<!-- Header -->
 				<header id="header">
-					<h1><a href="index.html">LoveandChaos.space</a></h1>
+					<h1 class="nav-top use-default"><a>LoveandChaos.space</a></h1>
 					<nav class="links">
 						<ul>
-							<li><a href="finding-the-path.html">Finding The Path</a></li>
-							<li><a href="love-and-chaos.html">Love and Chaos</a></li>
-							<li><a href="magic-mushrooms.html">Magic Mushrooms</a></li>
-							<li><a href="lysergic-acid-diethylamide.html">Lysergic Acid Diethylamide</a></li>
+							<li id="nav-path" class="nav-path use-default"><a>Finding The Path</a></li>
+							<li id="nav-love" class="nav-love use-default"><a>Love and Chaos</a></li>
+							<li id="nav-mushrooms" class="nav-mushroom use-default"><a>Magic Mushrooms</a></li>
+							<li id="nav-acid" class="nav-acid use-default"><a>Lysergic Acid Diethylamide</a></li>
 						</ul>
 					</nav>
 					<nav class="main">
@@ -79,7 +79,7 @@
 					<div id="main">
 
 						<!-- Post -->
-							<article class="post">
+							<article class="post" id="path">
 								<header>
 									<div class="title">
 										<h2><a href="finding-the-path.html">Finding the Path</a></h2>
@@ -95,7 +95,7 @@
 								<footer>
 									<ul class="actions">
 										<li><a href="finding-the-path.html" class="button large">Continue Reading</a></li>
-										<li><a href="index.html#love-and-chaos" class="button large next">Next</a></li>
+										<li id="love-button" class="love-button"><a class="button large next">Next</a></li>
 									</ul>
 									<ul class="stats">
 										<li><a href="#">General</a></li>
@@ -106,7 +106,7 @@
 							</article>
 
 						<!-- Post -->
-							<article class="post">
+							<article class="post" id="love">
 								<header>
 									<div class="title">
 										<h2><a href="love-and-chaos.html">Love and Chaos</a></h2>
@@ -122,7 +122,7 @@
 								<footer>
 									<ul class="actions">
 										<li><a href="love-and-chaos.html" class="button large">Continue Reading</a></li>
-										<li><a href="index.html#magic-mushrooms" class="button large next">Next</a></li>
+										<li id="mushroom-button" class="mushroom-button"><a class="button large next">Next</a></li>
 									</ul>
 									<ul class="stats">
 										<li><a href="#">General</a></li>
@@ -133,7 +133,7 @@
 							</article>
 
 						<!-- Post -->
-							<article class="post">
+							<article class="post" id="mushrooms">
 								<header>
 									<div class="title">
 										<h2><a href="magic-mushrooms.html">Magic Mushrooms</a></h2>
@@ -149,7 +149,7 @@
 								<footer>
 									<ul class="actions">
 										<li><a href="magic-mushrooms.html" class="button large">Continue Reading</a></li>
-										<li><a href="index.html#acid" class="button large next">Next</a></li>
+										<li id="acid-button" class="acid-button"><a class="button large next">Next</a></li>
 									</ul>
 									<ul class="stats">
 										<li><a href="#">General</a></li>
@@ -160,7 +160,7 @@
 							</article>
 
 							
-							<article class="post">
+							<article class="post" id="acid">
 								<header>
 									<div class="title">
 										<h2><a href="lysergic-acid-diethylamide.html">Lysergic Acid Diethylamide</a></h2>
@@ -176,7 +176,7 @@
 								<footer>
 									<ul class="actions">
 										<li><a href="lysergic-acid-diethylamide.html" class="button large">Continue Reading</a></li>
-										<li><a href="index.html#the-path" class="button large next">Top</a></li>
+										<li id="path-button" class="path-button"><a class="button large next">Start</a></li>
 									</ul>
 									<ul class="stats">
 										<li><a href="#">General</a></li>
@@ -186,6 +186,10 @@
 								</footer>
 							</article>
 
+					</div>
+
+					<div id="top-button" class="top-button">
+						<i class="fa fa-arrow-up top-button-text" aria-hidden="true"></i>
 					</div>
 
 				<!-- Sidebar -->
