@@ -1,3 +1,4 @@
+// Gather the triggers
 const navTopButton = document.querySelector(".nav-top")
 const pathButton = document.querySelector(".path-button");
 const navPathButton = document.querySelector(".nav-path");
@@ -8,8 +9,7 @@ const navMushroomButton = document.querySelector(".nav-mushroom");
 const acidButton = document.querySelector(".acid-button");
 const navAcidButton = document.querySelector(".nav-acid");
 
-// When the user clicks on the button, scroll to the top of the document
-
+// When the user clicks on the button, scroll to the place in the document
 navTopButton.onclick = () => {
 	window.scroll({
 		top: 0,
@@ -18,7 +18,7 @@ navTopButton.onclick = () => {
 };
 
 pathButton.onclick = () => {
-	const element = document.getElementById("path");
+	const element = document.getElementById("sidebar");
 	element.scrollIntoView({behavior: 'smooth'});
 };
 
@@ -61,7 +61,7 @@ navAcidButton.onclick = () => {
 // Get the button
 const topButton = document.getElementById("top-button");
 				
-// When the user scrolls down 20px from the top of the document, show the button
+// When the user scrolls down 5px from the top of the document, show the button
 window.onscroll = () => {
 	scrollFunction();
 };
