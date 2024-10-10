@@ -99,7 +99,6 @@
 // Additional Javascript
 // Gather the triggers
 const navTopButton = document.querySelector(".nav-top")
-const pathButton = document.querySelector(".path-button");
 const navPathButton = document.querySelector(".nav-path");
 const sideNavPathButton = document.querySelector(".side-nav-path");
 const loveButton = document.querySelector(".love-button");
@@ -112,17 +111,16 @@ const acidButton = document.querySelector(".acid-button");
 const navAcidButton = document.querySelector(".nav-acid");
 const sideNavAcidButton = document.querySelector(".side-nav-acid");
 
+const aboutButton = document.querySelector(".about-button");
+const sideNavAboutButton = document.querySelector(".side-nav-about");
+
+
 // When the user clicks on the button, scroll to the place in the document
 navTopButton.onclick = () => {
 	window.scroll({
 		top: 0,
 		behavior: "smooth",
 	});
-};
-
-pathButton.onclick = () => {
-	const element = document.getElementById("blurb");
-	element.scrollIntoView({behavior: 'smooth'});
 };
 
 navPathButton.onclick = () => {
@@ -184,6 +182,18 @@ sideNavAcidButton.onclick = () => {
 	document.getElementById("body").classList.toggle("is-menu-visible");
 };
 
+
+// Scroll to about section
+aboutButton.onclick = () => {
+	const element = document.getElementById("blurb");
+	element.scrollIntoView({behavior: 'smooth'});
+};
+
+sideNavAboutButton.onclick = () => {
+	const element = document.getElementById("blurb");
+	element.scrollIntoView({behavior: 'smooth'});
+	document.getElementById("body").classList.toggle("is-menu-visible");
+};
 
 // Get the button
 const topButton = document.getElementById("top-button");
