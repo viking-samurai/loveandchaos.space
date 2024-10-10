@@ -133,6 +133,7 @@ navPathButton.onclick = () => {
 sideNavPathButton.onclick = () => {
 	const element = document.getElementById("path");
 	element.scrollIntoView({behavior: 'smooth'});
+	document.getElementById("body").classList.toggle("is-menu-visible");
 };
 
 loveButton.onclick = () => {
@@ -148,6 +149,7 @@ navLoveButton.onclick = () => {
 sideNavLoveButton.onclick = () => {
 	const element = document.getElementById("love");
 	element.scrollIntoView({behavior: 'smooth'});
+	document.getElementById("body").classList.toggle("is-menu-visible");
 };
 
 mushroomButton.onclick = () => {
@@ -163,6 +165,7 @@ navMushroomButton.onclick = () => {
 sideNavMushroomButton.onclick = () => {
 	const element = document.getElementById("mushrooms");
 	element.scrollIntoView({behavior: 'smooth'});
+	document.getElementById("body").classList.toggle("is-menu-visible");
 };
 
 acidButton.onclick = () => {
@@ -178,6 +181,7 @@ navAcidButton.onclick = () => {
 sideNavAcidButton.onclick = () => {
 	const element = document.getElementById("acid");
 	element.scrollIntoView({behavior: 'smooth'});
+	document.getElementById("body").classList.toggle("is-menu-visible");
 };
 
 
