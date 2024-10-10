@@ -1861,6 +1861,12 @@ input, select, textarea {
 		font-size: 0.9em;
 	}
 
+	#blurb {
+		border: none;
+		margin: 0;
+		padding: 0;
+	}
+
 /* Box */
 
 	.box {
