@@ -112,6 +112,7 @@ const navAcidButton = document.querySelector(".nav-acid");
 const sideNavAcidButton = document.querySelector(".side-nav-acid");
 
 const aboutButton = document.querySelector(".about-button");
+const navAboutButton = document.querySelector(".nav-about");
 const sideNavAboutButton = document.querySelector(".side-nav-about");
 
 
@@ -185,6 +186,11 @@ sideNavAcidButton.onclick = () => {
 
 // Scroll to about section
 aboutButton.onclick = () => {
+	const element = document.getElementById("blurb");
+	element.scrollIntoView({behavior: 'smooth'});
+};
+
+navAboutButton.onclick = () => {
 	const element = document.getElementById("blurb");
 	element.scrollIntoView({behavior: 'smooth'});
 };
