@@ -101,12 +101,16 @@
 const navTopButton = document.querySelector(".nav-top")
 const pathButton = document.querySelector(".path-button");
 const navPathButton = document.querySelector(".nav-path");
+const sideNavPathButton = document.querySelector(".side-nav-path");
 const loveButton = document.querySelector(".love-button");
 const navLoveButton = document.querySelector(".nav-love");
+const sideNavLoveButton = document.querySelector(".side-nav-love");
 const mushroomButton = document.querySelector(".mushroom-button");
 const navMushroomButton = document.querySelector(".nav-mushroom");
+const sideNavMushroomButton = document.querySelector(".side-nav-mushroom");
 const acidButton = document.querySelector(".acid-button");
 const navAcidButton = document.querySelector(".nav-acid");
+const sideNavAcidButton = document.querySelector(".side-nav-acid");
 
 // When the user clicks on the button, scroll to the place in the document
 navTopButton.onclick = () => {
@@ -126,12 +130,22 @@ navPathButton.onclick = () => {
 	element.scrollIntoView({behavior: 'smooth'});
 };
 
+sideNavPathButton.onclick = () => {
+	const element = document.getElementById("path");
+	element.scrollIntoView({behavior: 'smooth'});
+};
+
 loveButton.onclick = () => {
 	const element = document.getElementById("love");
 	element.scrollIntoView({behavior: 'smooth'});
 };
 
 navLoveButton.onclick = () => {
+	const element = document.getElementById("love");
+	element.scrollIntoView({behavior: 'smooth'});
+};
+
+sideNavLoveButton.onclick = () => {
 	const element = document.getElementById("love");
 	element.scrollIntoView({behavior: 'smooth'});
 };
@@ -146,12 +160,22 @@ navMushroomButton.onclick = () => {
 	element.scrollIntoView({behavior: 'smooth'});
 };
 
+sideNavMushroomButton.onclick = () => {
+	const element = document.getElementById("mushrooms");
+	element.scrollIntoView({behavior: 'smooth'});
+};
+
 acidButton.onclick = () => {
 	const element = document.getElementById("acid");
 	element.scrollIntoView({behavior: 'smooth'});
 };
 
 navAcidButton.onclick = () => {
+	const element = document.getElementById("acid");
+	element.scrollIntoView({behavior: 'smooth'});
+};
+
+sideNavAcidButton.onclick = () => {
 	const element = document.getElementById("acid");
 	element.scrollIntoView({behavior: 'smooth'});
 };
