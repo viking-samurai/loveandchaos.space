@@ -117,10 +117,6 @@ const sideNavAcidButton = document.querySelector(".side-nav-acid");
 const aboutButton = document.querySelector(".about-button");
 const navAboutButton = document.querySelector(".nav-about");
 const sideNavAboutButton = document.querySelector(".side-nav-about");
-//Page specific navigation
-
-const acidNavFrames = document.querySelector('.acid-nav-frames');
-const acidNavEvolution = document.querySelector('.acid-nav-evolution');
 
 // When the user clicks on the button, scroll to the place in the document
 navTopButton.onclick = () => {
@@ -216,6 +212,9 @@ sideNavAboutButton.onclick = () => {
 };
 
 //Page specific navigation
+const acidNavFrames = document.querySelector('.acid-nav-frames');
+const acidNavEvolution = document.querySelector('.acid-nav-evolution');
+
 acidNavFrames.onclick = () => {
 	const element = document.getElementById("frames");
 	element.scrollIntoView({behavior: 'smooth'});
