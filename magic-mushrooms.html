@@ -11,7 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	<body class="single is-preload">
+	<body id="body" class="single is-preload">
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -54,7 +54,7 @@
 						<section>
 							<ul class="links">
 								<li>
-									<a id="side-nav-top" class="side-nav-top use-default"><h3>Home</h3></a>
+									<a href="index.html"><h3>Home</h3></a>
 								</li>
 								<li>
 									<a href="index.html#path"><h3>The Path</h3></a>
@@ -63,10 +63,14 @@
 									<a href="index.html#love"><h3>Love and Chaos</h3></a>
 								</li>
 								<li>
-									<a><h3>Mushrooms</h3></a>
+									<a id="mushroom-top" class="mushroom-top use-default"><h3>Mushrooms</h3></a>
 									<ul>
-										<li><a><p>Energies with Personalities</p></a></li>
-										<li><a><p>Preparing Magic Mushrooms</p></a></li>
+										<li>
+											<a id="mushroom-nav-energies" class="mushroom-nav-energies use-default"><p>Energies with Personalities</p></a>
+										</li>
+										<li>
+											<a id="mushroom-nav-preparation" class="mushroom-nav-preparation use-default"><p>Preparing Magic Mushrooms</p></a>
+										</li>
 									</ul>
 								</li>
 								<li>
@@ -98,6 +102,12 @@
 								<span class="image featured"><img src="images/magic-mushrooms.jpg" alt="" /></span>
 								<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
 								<p>Nunc quis dui scelerisque, scelerisque urna ut, dapibus orci. Sed vitae condimentum lectus, ut imperdiet quam. Maecenas in justo ut nulla aliquam sodales vel at ligula. Sed blandit diam odio, sed fringilla lectus molestie sit amet. Praesent eu tortor viverra lorem mattis pulvinar feugiat in turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce ullamcorper tellus sit amet mattis dignissim. Phasellus ut metus ligula. Curabitur nec leo turpis. Ut gravida purus quis erat pretium, sed pellentesque massa elementum. Fusce vestibulum porta augue, at mattis justo. Integer sed sapien fringilla, dapibus risus id, faucibus ante. Pellentesque mattis nunc sit amet tortor pellentesque, non placerat neque viverra. </p>
+								<h3 id="energies">Energies with Personalities</h3>
+								<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+								<p>Nunc quis dui scelerisque, scelerisque urna ut, dapibus orci. Sed vitae condimentum lectus, ut imperdiet quam. Maecenas in justo ut nulla aliquam sodales vel at ligula. Sed blandit diam odio, sed fringilla lectus molestie sit amet. Praesent eu tortor viverra lorem mattis pulvinar feugiat in turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce ullamcorper tellus sit amet mattis dignissim. Phasellus ut metus ligula. Curabitur nec leo turpis. Ut gravida purus quis erat pretium, sed pellentesque massa elementum. Fusce vestibulum porta augue, at mattis justo. Integer sed sapien fringilla, dapibus risus id, faucibus ante. Pellentesque mattis nunc sit amet tortor pellentesque, non placerat neque viverra. </p>
+								<h3 id="preparation">Preparing Magic Mushrooms</h3>
+								<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+								<p>Nunc quis dui scelerisque, scelerisque urna ut, dapibus orci. Sed vitae condimentum lectus, ut imperdiet quam. Maecenas in justo ut nulla aliquam sodales vel at ligula. Sed blandit diam odio, sed fringilla lectus molestie sit amet. Praesent eu tortor viverra lorem mattis pulvinar feugiat in turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce ullamcorper tellus sit amet mattis dignissim. Phasellus ut metus ligula. Curabitur nec leo turpis. Ut gravida purus quis erat pretium, sed pellentesque massa elementum. Fusce vestibulum porta augue, at mattis justo. Integer sed sapien fringilla, dapibus risus id, faucibus ante. Pellentesque mattis nunc sit amet tortor pellentesque, non placerat neque viverra. </p>
 								<footer>
 									<ul class="actions">
 										<li><a href="index.html" class="button large next">Back</a></li>
@@ -109,6 +119,10 @@
 									</ul>
 								</footer>
 							</article>
+							
+						<div id="top-button" class="top-button">
+							<i class="fa fa-arrow-up top-button-text" aria-hidden="true"></i>
+						</div>
 
 					</div>
 
@@ -132,6 +146,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/navigationScripts/mushroomNav.js"></script>
 
 	</body>
 </html>
