@@ -98,7 +98,10 @@
 
 // Additional Javascript
 // Gather the triggers
+//Pagetop button constants
 const navTopButton = document.querySelector(".nav-top")
+const sideNavTopButton = document.querySelector(".side-nav-top")
+//Page location button constants
 const navPathButton = document.querySelector(".nav-path");
 const sideNavPathButton = document.querySelector(".side-nav-path");
 const loveButton = document.querySelector(".love-button");
@@ -110,11 +113,14 @@ const sideNavMushroomButton = document.querySelector(".side-nav-mushroom");
 const acidButton = document.querySelector(".acid-button");
 const navAcidButton = document.querySelector(".nav-acid");
 const sideNavAcidButton = document.querySelector(".side-nav-acid");
-
+//About section button constants
 const aboutButton = document.querySelector(".about-button");
 const navAboutButton = document.querySelector(".nav-about");
 const sideNavAboutButton = document.querySelector(".side-nav-about");
+//Page specific navigation
 
+const acidNavFrames = document.querySelector('.acid-nav-frames');
+const acidNavEvolution = document.querySelector('.acid-nav-evolution');
 
 // When the user clicks on the button, scroll to the place in the document
 navTopButton.onclick = () => {
@@ -122,6 +128,14 @@ navTopButton.onclick = () => {
 		top: 0,
 		behavior: "smooth",
 	});
+};
+
+sideNavTopButton.onclick = () => {
+	window.scroll({
+		top: 0,
+		behavior: "smooth",
+	});
+	document.getElementById("body").classList.toggle("is-menu-visible");
 };
 
 navPathButton.onclick = () => {
@@ -197,6 +211,18 @@ navAboutButton.onclick = () => {
 
 sideNavAboutButton.onclick = () => {
 	const element = document.getElementById("blurb");
+	element.scrollIntoView({behavior: 'smooth'});
+	document.getElementById("body").classList.toggle("is-menu-visible");
+};
+
+//Page specific navigation
+acidNavFrames.onclick = () => {
+	const element = document.getElementById("frames");
+	element.scrollIntoView({behavior: 'smooth'});
+	document.getElementById("body").classList.toggle("is-menu-visible");
+};
+acidNavEvolution.onclick = () => {
+	const element = document.getElementById("evolution");
 	element.scrollIntoView({behavior: 'smooth'});
 	document.getElementById("body").classList.toggle("is-menu-visible");
 };
