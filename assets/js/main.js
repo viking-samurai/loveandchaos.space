@@ -93,28 +93,3 @@
 			});
 
 })(jQuery);
-
-
-// Get the button
-const topButton = document.getElementById("top-button");
-				
-// When the user scrolls down 5px from the top of the document, show the button
-window.onscroll = () => {
-	scrollFunction();
-};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
-	topButton.style.display = "flex";
-  } else {
-	topButton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-topButton.onclick = () => {
-	window.scroll({
-		top: 0,
-		behavior: "smooth",
-	});
-};
