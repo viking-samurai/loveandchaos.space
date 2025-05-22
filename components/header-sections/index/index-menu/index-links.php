@@ -2,26 +2,32 @@
 	<ul class="links">
 		<li>
 			<a href="#">
-				<h3>Lorem ipsum</h3>
-				<p>Feugiat tempus veroeros dolor</p>
+				<h3>Mind</h3>
+				<p>A collection of essays and ideas on the nature of the mind.</p>
 			</a>
 		</li>
 		<li>
 			<a href="#">
-				<h3>Dolor sit amet</h3>
-				<p>Sed vitae justo condimentum</p>
+				<h3>Body</h3>
+				<p>A collection of essays and ideas on the nature of the body.</p>
 			</a>
 		</li>
 		<li>
 			<a href="#">
-				<h3>Feugiat veroeros</h3>
-				<p>Phasellus sed ultricies mi congue</p>
+				<h3>Soul</h3>
+				<p>A collection of essays and ideas on the nature of the soul.</p>
 			</a>
 		</li>
 		<li>
 			<a href="#">
-				<h3>Etiam sed consequat</h3>
-				<p>Porta lectus amet ultricies</p>
+				<h3>Love</h3>
+				<p>A collection of essays and ideas on the nature of love.</p>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<h3>Chaos</h3>
+				<p>A collection of essays and ideas on the nature of chaos.</p>
 			</a>
 		</li>
 	</ul>
