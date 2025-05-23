@@ -15,7 +15,8 @@
 	
 	<footer>
 		<ul class="actions">
-			<li><a href="single.html" class="button large">Continue Reading</a></li>
+			<?php include 'components/main-sections/index/index-main/pagination/next-button.php' ?>
+			<?php include 'components/main-sections/index/index-main/pagination/top-button.php' ?>
 		</ul>
 		<ul class="stats">
 			<li><a href="#">General</a></li>

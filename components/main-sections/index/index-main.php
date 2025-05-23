@@ -14,7 +14,4 @@
 	<!-- Post -->
 		<?php include 'components/main-sections/index/index-main/posts/chaos.php' ?>
 
-	<!-- Pagination -->
-		<?php include 'components/main-sections/index/index-main/pagination/pagination.php' ?>
-
 </div>
