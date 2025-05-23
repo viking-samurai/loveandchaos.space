@@ -1,7 +1,7 @@
 <article class="post">	
 	<header>
 		<div class="title">
-			<h1><a href="index.php">On the wonders and secrets of the body</a></h1>
+			<h1><a href="index.php">The wonders and secrets of the body</a></h1>
 		</div>
 		<div class="meta">
 			<time class="published" datetime="2015-10-25">October 25, 2015</time>
