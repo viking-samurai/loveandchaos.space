@@ -1,7 +1,7 @@
 <article class="post">	
 	<header>
 		<div class="title">
-			<h1><a href="index.php">To the scope and pressence of the mind</a></h1>
+			<h1><a href="index.php">To the scope and power of the mind</a></h1>
 		</div>
 	</header>
 
