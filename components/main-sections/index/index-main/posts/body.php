@@ -1,7 +1,7 @@
 <article class="post">	
 	<header>
 		<div class="title">
-			<h1><a href="index.php">The wonders and secrets of the body</a></h1>
+			<h1><a href="index.php">Of the wonders and secrets of the body</a></h1>
 		</div>
 	</header>
 

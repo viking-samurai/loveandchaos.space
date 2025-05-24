@@ -1,7 +1,7 @@
 <article class="post">	
 	<header>
 		<div class="title">
-			<h1><a href="index.php">On the nature of the soul and beyond</a></h1>
+			<h1><a href="index.php">For the majesty of the soul and beyond</a></h1>
 		</div>
 	</header>
 

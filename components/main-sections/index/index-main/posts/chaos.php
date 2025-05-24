@@ -1,7 +1,7 @@
 <article class="post">	
 	<header>
 		<div class="title">
-			<h1><a href="index.php">On chaos, economics, and happiness</a></h1>
+			<h1><a href="index.php">About economics, happiness, and chaos</a></h1>
 		</div>
 	</header>
 
