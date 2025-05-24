@@ -1,1 +1,0 @@
-<li id="cycle-button" class="cycle-button"><a class="button large top" href="index.php">Surface</a></li>

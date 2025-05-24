@@ -3435,7 +3435,7 @@ input, select, textarea {
 		#intro .logo img {
 			display: block;
 			margin-left: -0.25em;
-			height: 8em;
+			max-height: 6em;
 		}
 
 	#intro header h2 {
