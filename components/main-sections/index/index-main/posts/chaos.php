@@ -11,8 +11,8 @@
 	
 	<footer>
 		<ul class="actions">
-			<?php include 'components/main-sections/index/index-main/pagination/next-button.php' ?>
-			<?php include 'components/main-sections/index/index-main/pagination/top-button.php' ?>
+			<?php include 'components/main-sections/index/index-main/pagination/deeper-button.php' ?>
+			<?php include 'components/main-sections/index/index-main/pagination/surface-button.php' ?>
 		</ul>
 		<ul class="stats">
 			<li><a href="#">General</a></li>
