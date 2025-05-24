@@ -3,10 +3,6 @@
 		<div class="title">
 			<h1><a href="index.php">On the scope and power of the mind</a></h1>
 		</div>
-		<div class="meta">
-			<time class="published" datetime="2015-10-25">October 25, 2015</time>
-			<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
-		</div>
 	</header>
 
 	<a href="single.html" class="image featured"><img src="images/Rebecca-Guay/the_Mind3.png" alt="" /></a>
