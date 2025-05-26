@@ -123,8 +123,6 @@ homeButton.onclick = () => {
 
 
 
-
-
 //Triggers
 //Main section next button
 nextButton.forEach(button => button.addEventListener('click', goDownFunction));
