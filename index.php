@@ -1,13 +1,8 @@
 <!DOCTYPE HTML>
-<!--
-	Future Imperfect by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<?php require 'components/page-heads/index-head.php' ?>
 
-	<body class="is-preload">
+	<body class="is-preload" id="main-body">
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -32,6 +27,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/sliding-navigation.js"></script>
 
 	</body>
 </html>

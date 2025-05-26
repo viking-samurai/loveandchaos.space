@@ -1,4 +1,4 @@
-<article class="post">	
+<article class="post" id="soul">	
 	<header>
 		<div class="title">
 			<h1><a href="index.php">For the majesty of the soul and beyond</a></h1>
@@ -12,7 +12,9 @@
 	<footer>
 		<ul class="actions">
 			<?php include 'components/main-sections/index/index-main/pagination/this-section.php' ?>
-			<?php include 'components/main-sections/index/index-main/pagination/next-section.php' ?>
+			<li id="love-button" class="cycle-button next-button">
+    			<a class="button large next">Next Section</a>
+			</li>
 		</ul>
 		<ul class="stats">
 			<li><a href="#">General</a></li>

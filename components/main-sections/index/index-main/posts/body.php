@@ -1,7 +1,7 @@
-<article class="post">	
+<article class="post" id="body">	
 	<header>
 		<div class="title">
-			<h1><a href="index.php">Of the wonders and secrets of the body</a></h1>
+			<h1><a href="index.php">To the wonders and secrets of the body</a></h1>
 		</div>
 	</header>
 
@@ -12,7 +12,9 @@
 	<footer>
 		<ul class="actions">
 			<?php include 'components/main-sections/index/index-main/pagination/this-section.php' ?>
-			<?php include 'components/main-sections/index/index-main/pagination/next-section.php' ?>
+			<li id="soul-button" class="cycle-button next-button">
+    			<a class="button large next">Next Section</a>
+			</li>
 		</ul>
 		<ul class="stats">
 			<li><a href="#">General</a></li>
