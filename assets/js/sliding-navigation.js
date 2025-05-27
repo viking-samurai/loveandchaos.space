@@ -61,11 +61,20 @@ function topFunction() {
 	document.getElementById("body").classList.toggle("is-menu-visible");
 }
 
+//Change mouseover for links
+function changeCursor(event) {
+  const targetElement = event.currentTarget || event.target;
+  targetElement.style.cursor = 'pointer';
+  console.log(`Cursor changed to pointer on mouseover.`);
+}
+
+
 
 //Triggers
 //Main section next button
 nextButton.forEach(button => button.addEventListener('click', goDownFunction));
 homeButton.forEach(button => button.addEventListener('click', topFunction));
+homeButton.forEach(button => button.addEventListener('mouseover', changeCursor));
 //Side menu event listeners
 sectionButton.forEach(button => button.addEventListener('click', topDownFunction));
 sectionButton.forEach(button => button.addEventListener('mouseover', changeCursor));
@@ -116,8 +125,3 @@ sideNavChaosButton.onclick = () => {
 	element.scrollIntoView({behavior: 'smooth'});
 	document.getElementById("main-body").classList.toggle("is-menu-visible");
 };
-
-//Return side navigation menu to closed position
-function changeCursor(e) {
-	document.body.style.cursor = 'pointer';
-}
