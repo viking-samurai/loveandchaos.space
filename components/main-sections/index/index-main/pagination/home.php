@@ -1,4 +1,4 @@
-<li id="cycle-button" class="cycle-button home-button">
-    <a class="button large top">Home</a>
+<li id="cycle-button" class="home-button cycle-button">
+    <a class="button large top">Top</a>
 </li>
 
