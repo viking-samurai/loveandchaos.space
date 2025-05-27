@@ -15,9 +15,9 @@ const sideNavSoulButton = document.getElementById('sideMenu-soul-button');
 const sideNavLoveButton = document.getElementById('sideMenu-love-button');
 const sideNavChaosButton = document.getElementById('sideMenu-chaos-button');
 
-//////////////////////////////////////////////
-//Header and Main Section Navigation Functions
-//////////////////////////////////////////////
+//////////////////////////////////////////////////
+//Header and Main Section Navigation Functions////
+//////////////////////////////////////////////////
 
 //Downward slide functions from top menu navigation section
 function topDownFunction(e) {
