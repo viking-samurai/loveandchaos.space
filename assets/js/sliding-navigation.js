@@ -1,15 +1,15 @@
 //Declare your constants
 const topHomeButton = document.querySelector('.top-home-button');
 const sectionButton = document.querySelectorAll('.section-button');
+//Declare your constants (main sections)
+const homeButton = document.querySelector('.home-button');
+const nextButton = document.querySelectorAll('.next-button');
 //Declare your constants (side menu)
 const sideNavMindButton = document.getElementById('sideMenu-mind-button');
 const sideNavBodyButton = document.getElementById('sideMenu-body-button');
 const sideNavSoulButton = document.getElementById('sideMenu-soul-button');
 const sideNavLoveButton = document.getElementById('sideMenu-love-button');
 const sideNavChaosButton = document.getElementById('sideMenu-chaos-button');
-//Declare your constants (main sections)
-const homeButton = document.querySelector('.home-button');
-const nextButton = document.querySelectorAll('.next-button');
 
 
 
@@ -38,15 +38,6 @@ function topDownFunction(e) {
 		element.scrollIntoView({behavior: 'smooth'});
 	}
 }
-
-//Upward slide function from top navigation sections 
-topHomeButton.onclick = () => {
-	window.scroll({
-		top: 0,
-		behavior: "smooth",
-	});
-	document.getElementById("body").classList.toggle("is-menu-visible");
-};
 
 
 
@@ -113,7 +104,15 @@ function goDownFunction(e) {
 
 //Upward slide function from main sections 
 homeButton.onclick = () => {
-	console.log("Working!");
+	window.scroll({
+		top: 0,
+		behavior: "smooth",
+	});
+	document.getElementById("body").classList.toggle("is-menu-visible");
+};
+
+//Upward slide function from top navigation sections 
+topHomeButton.onclick = () => {
 	window.scroll({
 		top: 0,
 		behavior: "smooth",
