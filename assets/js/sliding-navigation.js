@@ -1,12 +1,24 @@
-//Header and Main Section Navigation Functions
+//////////////////////////////////////////////
+//All constant declarations///////////////////
+//////////////////////////////////////////////
+
 //Top section constants
 const sectionButton = document.querySelectorAll('.section-button');
 //Main section constants
 const homeButton = document.querySelectorAll('.home-button');
 const nextButton = document.querySelectorAll('.next-button');
+//Side section constants
+const sideMenuButton = document.querySelectorAll('.sideMenu-section-button');
+const sideNavMindButton = document.getElementById('sideMenu-mind-button');
+const sideNavBodyButton = document.getElementById('sideMenu-body-button');
+const sideNavSoulButton = document.getElementById('sideMenu-soul-button');
+const sideNavLoveButton = document.getElementById('sideMenu-love-button');
+const sideNavChaosButton = document.getElementById('sideMenu-chaos-button');
 
+//////////////////////////////////////////////
+//Header and Main Section Navigation Functions
+//////////////////////////////////////////////
 
-//Top menu navigation functions
 //Downward slide functions from top menu navigation section
 function topDownFunction(e) {
 	if (this.id === "top-mind-button") {	
@@ -31,7 +43,6 @@ function topDownFunction(e) {
 	}
 }
 
-//Main section navigation functions
 //Downward slide functions from main sections
 function goDownFunction(e) {
 	if (this.id === "body-button") {	
@@ -52,48 +63,9 @@ function goDownFunction(e) {
 	}
 }
 
-//Top function
-function topFunction() {
-	window.scroll({
-		top: 0,
-		behavior: "smooth",
-	});
-	document.getElementById("body").classList.toggle("is-menu-visible");
-}
-
-//Change mouseover for links
-function changeCursor(event) {
-  const targetElement = event.currentTarget || event.target;
-  targetElement.style.cursor = 'pointer';
-  console.log(`Cursor changed to pointer on mouseover.`);
-}
-
-
-
-//Triggers
-//Main section next button
-nextButton.forEach(button => button.addEventListener('click', goDownFunction));
-homeButton.forEach(button => button.addEventListener('click', topFunction));
-homeButton.forEach(button => button.addEventListener('mouseover', changeCursor));
-//Side menu event listeners
-sectionButton.forEach(button => button.addEventListener('click', topDownFunction));
-sectionButton.forEach(button => button.addEventListener('mouseover', changeCursor));
-
-
-
 ////////////////////////////////////////////////
 //Side Menu Navigation functions////////////////
 ////////////////////////////////////////////////
-
-
-
-//Side menu navigation functions
-//Declare your constants (side menu)
-const sideNavMindButton = document.getElementById('sideMenu-mind-button');
-const sideNavBodyButton = document.getElementById('sideMenu-body-button');
-const sideNavSoulButton = document.getElementById('sideMenu-soul-button');
-const sideNavLoveButton = document.getElementById('sideMenu-love-button');
-const sideNavChaosButton = document.getElementById('sideMenu-chaos-button');
 
 //Downward slide functions from side menu
 sideNavMindButton.onclick = () => {
@@ -125,3 +97,36 @@ sideNavChaosButton.onclick = () => {
 	element.scrollIntoView({behavior: 'smooth'});
 	document.getElementById("main-body").classList.toggle("is-menu-visible");
 };
+
+////////////////////////////////////////////////
+//Navigation return functions//////////////////
+////////////////////////////////////////////////
+
+//Top function
+function topFunction() {
+	window.scroll({
+		top: 0,
+		behavior: "smooth",
+	});
+	document.getElementById("body").classList.toggle("is-menu-visible");
+}
+
+//Change mouseover for links
+function changeCursor(event) {
+  const targetElement = event.currentTarget || event.target;
+  targetElement.style.cursor = 'pointer';
+}
+
+//////////////////////////////////////////////
+//All constant triggers///////////////////////
+//////////////////////////////////////////////
+
+//Main section triggers
+nextButton.forEach(button => button.addEventListener('click', goDownFunction));
+homeButton.forEach(button => button.addEventListener('click', topFunction));
+homeButton.forEach(button => button.addEventListener('mouseover', changeCursor));
+//Top menu triggers
+sectionButton.forEach(button => button.addEventListener('click', topDownFunction));
+sectionButton.forEach(button => button.addEventListener('mouseover', changeCursor));
+//Side menu tiggers
+sideMenuButton.forEach(button => button.addEventListener('mouseover', changeCursor));
