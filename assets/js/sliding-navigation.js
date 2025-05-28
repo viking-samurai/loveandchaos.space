@@ -22,6 +22,14 @@ const sideNavChaosButton = document.getElementById('sideMenu-chaos-button');
 
 //Downward slide functions from top menu navigation section
 function topDownFunction(e) {
+	if (this.id === "top-about-button") {	
+		const element = document.getElementById("about");
+		element.scrollIntoView({behavior: 'smooth'});
+	}
+	if (this.id === "name-about-button") {	
+		const element = document.getElementById("about");
+		element.scrollIntoView({behavior: 'smooth'});
+	}
 	if (this.id === "top-mind-button") {	
 		const element = document.getElementById("mind");
 		element.scrollIntoView({behavior: 'smooth'});

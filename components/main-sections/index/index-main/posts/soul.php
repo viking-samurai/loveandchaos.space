@@ -5,9 +5,9 @@
 		</div>
 	</header>
 
-	<a href="single.html" class="image featured"><img src="images/Rebecca-Guay/the_Soul3.png" alt="" /></a>
-	<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. 
-		Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper.</p>
+	<a href="index.php" class="image featured"><img src="images/main-structure-images/the_Soul3.png" alt="" /></a>
+	<p>A collection of essays and ideas on the nature of the soul and beyond, this section looks at Heaven and Hell 
+		as real destinations, and how their existance impacts life on earth through the Soul.</p>
 	
 	<footer>
 		<ul class="actions">

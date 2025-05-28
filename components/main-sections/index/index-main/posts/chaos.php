@@ -5,9 +5,9 @@
 		</div>
 	</header>
 
-	<a href="single.html" class="image featured"><img src="images/Rebecca-Guay/chaos2.png" alt="" /></a>
-	<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. 
-		Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper.</p>
+	<a href="index.php" class="image featured"><img src="images/main-structure-images/chaos2.png" alt="" /></a>
+	<p>A collection of essays and ideas on the nature of chaos, and its fundamental ability to provide life through 
+		the impression of necessity, and the economics of providing for each unique necessity in turn.</p>
 	
 	<footer>
 		<ul class="actions">

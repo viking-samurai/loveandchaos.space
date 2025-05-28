@@ -5,9 +5,9 @@
 		</div>
 	</header>
 
-	<a href="single.html" class="image featured"><img src="images/Rebecca-Guay/the_Body2.png" alt="" /></a>
-	<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. 
-		Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper.</p>
+	<a href="../index.php" class="image featured"><img src="images/main-structure-images/the_Body2.png" alt="" /></a>
+	<p>A collection of essays and ideas on the nature of the body, and what it means to exist in this dimension.  
+		This section covers topics such as dieting and excercise, as well as some Shamanic recipes.</p>
 	
 	<footer>
 		<ul class="actions">

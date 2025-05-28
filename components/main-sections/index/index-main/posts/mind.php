@@ -5,9 +5,9 @@
 		</div>
 	</header>
 
-	<a href="single.html" class="image featured"><img src="images/Rebecca-Guay/the_Mind3.png" alt="" /></a>
-	<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. 
-		Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper.</p>
+	<a href="index.php" class="image featured"><img src="images/main-structure-images/the_Mind3.png" alt="" /></a>
+	<p>A collection of essays and ideas on the nature of the mind, this section explores the vast depths of consciousness,
+		including topics such as how we think, feel, and explore our worlds through perception and experience.</p>
 	
 	<footer>
 		<ul class="actions">
