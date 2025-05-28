@@ -1,5 +1,11 @@
 <section>
 	<ul class="links">
+		<li class="sideMenu-section-button" id="sideMenu-about-button">
+			<a>
+				<h3>About</h3>
+				<p>A note about Maestro Drago Jax and His perspective on PTSD.</p>
+			</a>
+		</li>
 		<li class="sideMenu-section-button" id="sideMenu-mind-button">
 			<a>
 				<h3>Mind</h3>

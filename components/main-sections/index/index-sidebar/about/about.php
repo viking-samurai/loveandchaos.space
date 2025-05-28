@@ -1,4 +1,4 @@
-<section class="blurb">
+<section class="blurb" id="about">
 	<h2>About</h2>
 	<p>Maestro Drago Jax is a Shaman operating within Calgary and the surrounding area.  He specializes 
 		in PTSD recovery using Acid, Shrooms, Weed, and Whiskey.  His operation focuses on the science 
@@ -9,6 +9,6 @@
 		to treat this disorder, feel free to reach out.
 	</p>
 	<ul class="actions">
-		<li><a href="#" class="button">Learn More</a></li>
+		<?php include 'components/main-sections/index/index-main/pagination/home.php' ?>
 	</ul>
 </section>

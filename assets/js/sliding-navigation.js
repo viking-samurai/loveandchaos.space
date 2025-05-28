@@ -9,6 +9,7 @@ const homeButton = document.querySelectorAll('.home-button');
 const nextButton = document.querySelectorAll('.next-button');
 //Side section constants
 const sideMenuButton = document.querySelectorAll('.sideMenu-section-button');
+const sideNavAboutButton = document.getElementById('sideMenu-about-button');
 const sideNavMindButton = document.getElementById('sideMenu-mind-button');
 const sideNavBodyButton = document.getElementById('sideMenu-body-button');
 const sideNavSoulButton = document.getElementById('sideMenu-soul-button');
@@ -68,6 +69,12 @@ function goDownFunction(e) {
 ////////////////////////////////////////////////
 
 //Downward slide functions from side menu
+sideNavAboutButton.onclick = () => {
+	const element = document.getElementById("about");
+	element.scrollIntoView({behavior: 'smooth'});
+	document.getElementById("main-body").classList.toggle("is-menu-visible");
+};
+
 sideNavMindButton.onclick = () => {
 	const element = document.getElementById("mind");
 	element.scrollIntoView({behavior: 'smooth'});
